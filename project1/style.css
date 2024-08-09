@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 530;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#nav-part3 button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 16px;
+
+}
+#btn2{
+    background-color: orangered;
+    color: white;
+}
+#content{
+    height: 80%;
+    width: 100%;
+}
+
+#content h1{
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+img{
+    height: 400px;
+    width: 340px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-27deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-18deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-9deg);
+}
+
+
+
+
+
+#nav h6{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#h5{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border:1.5px ;
+    font-size: 16px;
+}
+#bottom{
+display: flex;
+justify-content: space-between;
+padding: 50px;
+font-size: 25px;
+}
+#icon{
+    display: flex;
+   width: 12%;
+   
+   justify-content: space-between;
+   padding: 5px;
+   
+}
+#icon i{
+    border-radius: 50px;
+    padding:  5px 8px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+#icon:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
